@@ -1,5 +1,4 @@
-namespace App{
-    //Validation
+ //Validation
 export interface Validatable {
     value: string | number;
     required?: boolean;
@@ -27,5 +26,4 @@ export function validate(validatableInput : Validatable){
         isValid = isValid && validatableInput.value <= validatableInput.max;
     }
     return isValid;
-}
 }
