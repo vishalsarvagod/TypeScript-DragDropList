@@ -1,4 +1,4 @@
-import { ProjectType, ProjectStatus } from "../models/project.js";
+import { ProjectType, ProjectStatus } from "../models/project";
 
 // Project State Management
   type Listner<T> = (item: ProjectType[])=>void;

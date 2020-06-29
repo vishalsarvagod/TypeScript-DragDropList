@@ -1,4 +1,4 @@
-import { ProjectType, ProjectStatus } from "../models/project.js";
+import { ProjectType, ProjectStatus } from "../models/project";
 class State {
     constructor() {
         this.listners = [];
